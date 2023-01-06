@@ -1,0 +1,36 @@
+/* nav-style */
+.header{
+    background-image: url(../images/banner/banner2.png);
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 808px;
+}
+.title{
+    text-align: right;
+    padding: 48px 32px 30px 80px;
+}
+.nav-title{
+    font-weight: 700;
+font-size: 30px;
+color: #151414;
+line-height: 10px;
+
+}
+.nav-discription{
+    font-weight: 400;
+font-size: 16px;
+line-height: 5px;
+margin-top: 24px;
+margin-bottom: 32px;
+color: #444343;
+
+}
+.btn-primary{
+    color: #FFFFFF;
+font-weight: 600;
+font-size: 20px;
+background:#F15B22 ;
+border: 1px;
+border-radius: 5px;
+}
+
