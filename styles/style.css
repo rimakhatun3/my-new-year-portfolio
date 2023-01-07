@@ -12,12 +12,13 @@
  background-size: cover;
  max width: 1600px;
 height: 808px;
+
+
 }
 .nav-title{
     font-weight: 600;
     font-size: 25px;
     margin-left: 800px;
-    text-align: right;
     margin-top: 216px;
     margin-right: 230px;
     margin-bottom: 24px;
@@ -30,22 +31,21 @@ color: #151414;
 font-weight: 400;
 font-size: 16px;
 line-height: 20px;
-display:contents;
 text-align: right;
+margin-top: 24px;
 margin bottom: 32px;
-
-
+margin-left: 800px;
+display:content;
 
 }
 .btn-primary{
-    color: #FFFFFF;
+    background:#F15B22;
 font-weight: 600;
 font-size: 20px;
-background:#F15B22 ;
 border-radius: 5px;
 line-height: 20px;
-margin: 23px;
-
+ccolor: #FFFFFF;
+margin: 23px 25px;
 }
 /* banner style */
 .banner{
@@ -121,7 +121,7 @@ margin-top:24px ;
 margin-bottom: 60px;
 }
 .call-section{
-    background-image: url(../images/watch.png);
+    background-image: url(../images/watch.png),url(../images/gradient1.png);
     background-repeat: no-repeat;
 background-position: center;
 max-width: 1140px;
@@ -170,4 +170,6 @@ color: #FFFFFF;
 }
 .btn-primary{
     margin: 20px 30px;
+    background-color: #F15B22;
+    color: #FFFFFF;
 }
