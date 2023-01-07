@@ -72,3 +72,23 @@ font-size: 16px;
 line-height: 26px;
 list-style:circle;
 }
+/* my plans */
+.my-plans{
+    margin-top: 130px;
+}
+.skills-container{
+    display: flex;
+    gap:70px;
+    align-items: center;
+}
+.section-title{
+    font-size: 40px;
+line-height: 47px;
+text-align: center;
+}
+.skill-title{
+    font-weight: 700;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+}
