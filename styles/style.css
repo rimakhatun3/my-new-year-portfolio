@@ -1,28 +1,39 @@
-/* nav-style */
-.header{
-    background-image: url(../images/banner/banner2.png);
-    background-repeat: no-repeat;
-    width: 1600px;
-    height: 808px;
+*{
+    margin: 0;
+    font-family: 'Work Sans';
 }
+
+
+
 .title{
     text-align: right;
-    padding: 48px 32px 30px 80px;
+    background-image: url(../images/banner/banner2.png);
+   background-repeat: no-repeat;
+ background-size: cover;
+ width: 1600px;
+height: 808px;
 }
 .nav-title{
-    font-weight: 700;
-font-size: 30px;
-color: #151414;
-line-height: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: right;
+color: #151414; 
+margin: 50px  250px;
+display:contents;
+
 
 }
 .nav-discription{
-    font-weight: 400;
+ color: #444343;
+font-weight: 400;
 font-size: 16px;
-line-height: 5px;
-margin-top: 24px;
-margin-bottom: 32px;
-color: #444343;
+line-height: 20px;
+display:contents;
+text-align: right;
+margin: 50px  250px;
+
+
 
 }
 .btn-primary{
@@ -30,7 +41,34 @@ color: #444343;
 font-weight: 600;
 font-size: 20px;
 background:#F15B22 ;
-border: 1px;
 border-radius: 5px;
-}
+line-height: 20px;
+margin: 23px;
 
+}
+/* banner style */
+.banner{
+    display: flex;
+    margin: 0 200px;
+    align-items: center;
+}
+.banner-title{
+    color: #151414;
+    font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+
+
+}
+.banner-description{
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #444343;
+}
+.banner-list{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+list-style:circle;
+}
